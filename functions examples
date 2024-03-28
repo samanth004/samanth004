@@ -1,0 +1,15 @@
+def example():
+    for i in range(20):
+        print("deepika",end=' ')
+example()
+
+program2:-
+
+def example1():
+    for i in range(20):
+        print("deepika",end=' ')
+def example2():
+    for i in range(5):
+        print(i,end=' ')
+example2()
+example1()

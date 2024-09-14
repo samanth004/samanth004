@@ -1,0 +1,9 @@
+numbers = [28,36,72,12,45,18,92]
+total = sum(numbers)
+size = len(numbers)
+average = total / size
+above_average = []
+for number in numbers:
+    if number > average:
+        above_average.append(number)
+print(above_average)
